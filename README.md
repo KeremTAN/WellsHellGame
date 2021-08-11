@@ -1,6 +1,6 @@
 # WellsHellGame
 ## Strategy and Simple Factory Design Patterns
-It is a homework for lecture of Design Pattern. <br/>
+It is a homework for lecture of Design Patterns. <br/>
 ### Statement of Work:
 Our project is to design a 2 player fighting game. The logic of our game is 
 quite simple. Although our game looks like a fighting game, it is actually a strategy game. Our 

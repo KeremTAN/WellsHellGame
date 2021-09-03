@@ -1,6 +1,7 @@
 # WellsHellGame
 ## Strategy and Simple Factory Design Patterns
-It is a homework for lecture of Design Patterns. <br/>
+Random values are assigned to the places where data must be entered in the control class.
+In this way, you can run and observe the game directly, or you can play the game on the console by changing the necessary places in the control class. <br/>
 ### Statement of Work:
 Our project is to design a 2 player fighting game. The logic of our game is 
 quite simple. Although our game looks like a fighting game, it is actually a strategy game. Our 

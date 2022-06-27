@@ -1,4 +1,4 @@
-# WellsHellGame
+# Wells Hell Game
 ## Strategy and Simple Factory Design Patterns
 Random values are assigned to the places where data must be entered in the control class.
 In this way, you can run and observe the game directly, or you can play the game on the console by changing the necessary places in the control class. <br/>

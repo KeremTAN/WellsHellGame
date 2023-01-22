@@ -25,10 +25,15 @@ that the user wants to do is selected first. The choice made by our player is se
 to the createAttack method of an object of our FactoryAttack class. When the Attacks object 
 created according to the sent value is sent back to us, we send the returned Attacks object as a 
 parameter to the setAttacks method of our player's fight object. <br/>
-*`public int chooseAttack(Fighters attackPlayer) { `<br/>
-`  … `<br/>
-`  attackPlayer.setAttack(new FactoryAttack().createAttack(chosenAttack)); `<br/> 
-`  … }`* <br/>
+
+```java
+public int chooseAttack(Fighters attackPlayer) { 
+  …
+  attackPlayer.setAttack(new FactoryAttack().createAttack(chosenAttack)); 
+  … 
+}
+```
+
 Thanks to the FactoryAttacks object, although we do not see the background, the createAttack 
 method produces the Attacks object we want. So we're using the simple factory pattern here.
 With the value sent, we reset the Attacks area of our player's Fighters object. In this way, while 
